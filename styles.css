@@ -1,0 +1,71 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: middle;
+    background-color:rgb(151, 73, 73);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration:none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(46, 24, 41);
+  }
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #8f1414;
+    color: white;
+    font-size: 30px;
+    
+  }
+
+  .body{
+      font:Garamond;
+      text-align: center;
+      background-color: gold;
+      margin: 0;
+      padding: 60px;
+      
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: gold;
+  }
+  .historyheader{
+    padding: 60px;
+    text-align: center;
+    background: #8f1414;
+    color: white;
+    font-size: 30px;
+    border-style: outset;
+    border-radius: 40;
+    border-color: gold;
+  }
+  .story{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      line-height: 150%;
+      color: rgb(109, 6, 6);
+  }
+  .modern{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: large;
+    line-height: 200%;
+    color: rgb(109, 6, 6);
+  }
