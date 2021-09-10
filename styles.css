@@ -31,7 +31,7 @@ ul {
   }
 
   .body{
-      font:Garamond;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       text-align: center;
       background-color: gold;
       margin: 0;
@@ -53,7 +53,7 @@ ul {
     color: white;
     font-size: 30px;
     border-style: outset;
-    border-radius: 40;
+    border-radius: 10px;
     border-color: gold;
   }
   .story{
@@ -63,8 +63,12 @@ ul {
       color: rgb(109, 6, 6);
   }
   .modern{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     line-height: 200%;
     color: rgb(109, 6, 6);
+  }
+  #drawing{
+      padding: 20px;
+      scale: 200%;
   }
